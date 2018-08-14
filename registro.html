@@ -18,16 +18,15 @@
         </header>
         <main> 
             <form action="">
-                    Nombre <input name="nombre" type="text"> <br><br>
-                    Apellido <input name="apellido" type="text"> <br><br>
-                    Email <input name="email" type="email"> <br><br>
-                    Password <input name="Password" type="password"> <br><br>
-                    <select name="sexo" size="2">
-                        <option value="M">Masculino</option>
-                        <option value="F">Femenino</option>
-                    </select> <br><br>
-                    <button type="button" onclick="alert('Usuario Registrado con Exito!')">Registrar</button>
-
+                    Nombre: <input name="nombre" type="text"> <br><br>
+                    Apellido: <input name="apellido" type="text"> <br><br>
+                    Email: <input name="email" type="email"> <br><br>
+                    Password: <input name="password" type="password"> <br><br>
+                    Masculino<input name="sexo" type="radio" value="M" checked>
+                    Femenino<input name="sexo" type="radio" value="F"> <br><br>
+                    
+                    <input type="submit" name="registra" value="Resgistar" onclick="alert('Usuario Registrado con Exito!')">
+                    <input type="reset" name="reset" value="Limpiar">
 
             </form> 
         </main>
